@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'secp256k1Converter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of secp256k1Converter.'
+  s.summary          = 'A converter to avoid the conflict of same naming.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A converter to avoid the conflict of same naming. In there, you can import with secp256k1Converter.
                        DESC
 
   s.homepage         = 'https://github.com/ArchieR7/secp256k1Converter'
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Archie' => 'Archie@Archie.tw' }
   s.source           = { :git => 'https://github.com/ArchieR7/secp256k1Converter.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ChangArchie'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '9.3'
 
   s.source_files = 'secp256k1Converter/Classes/**/*'
