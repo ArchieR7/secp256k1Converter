@@ -1,0 +1,28 @@
+{
+  "name": "secp256k1Converter",
+  "version": "0.1.0",
+  "summary": "A short description of secp256k1Converter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Archie/secp256k1Converter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Archie": "Archie@Archie.tw"
+  },
+  "source": {
+    "git": "https://github.com/Archie/secp256k1Converter.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/ChangArchie",
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "secp256k1Converter/Classes/**/*",
+  "dependencies": {
+    "secp256k1.swift": [
+      "~> 0.1.4"
+    ]
+  }
+}

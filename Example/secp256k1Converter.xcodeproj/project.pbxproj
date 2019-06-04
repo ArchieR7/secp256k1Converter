@@ -12,14 +12,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23FBC8C03200A7FEF4216FE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		23FBC8C03200A7FEF4216FE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		59F19FC2ABDEFFE11286645C /* Pods-secp256k1Converter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secp256k1Converter_Tests.release.xcconfig"; path = "Target Support Files/Pods-secp256k1Converter_Tests/Pods-secp256k1Converter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* secp256k1Converter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = secp256k1Converter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		649B5A1DDE365D5125004E9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		649B5A1DDE365D5125004E9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7D038E279569DAC80F0475B2 /* Pods_secp256k1Converter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_secp256k1Converter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE0757509BDE75DC0F25F65B /* secp256k1Converter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = secp256k1Converter.podspec; path = ../secp256k1Converter.podspec; sourceTree = "<group>"; };
+		AE0757509BDE75DC0F25F65B /* secp256k1Converter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = secp256k1Converter.podspec; path = ../secp256k1Converter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B95FF794D238CBD6BC59B3D0 /* Pods-secp256k1Converter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secp256k1Converter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-secp256k1Converter_Tests/Pods-secp256k1Converter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,6 @@
 				B95FF794D238CBD6BC59B3D0 /* Pods-secp256k1Converter_Tests.debug.xcconfig */,
 				59F19FC2ABDEFFE11286645C /* Pods-secp256k1Converter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -180,12 +176,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-secp256k1Converter_Tests/Pods-secp256k1Converter_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/secp256k1.swift/secp256k1.framework",
 				"${BUILT_PRODUCTS_DIR}/secp256k1Converter/secp256k1Converter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1Converter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

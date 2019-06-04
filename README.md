@@ -1,10 +1,5 @@
 # secp256k1Converter
 
-[![CI Status](https://img.shields.io/travis/Archie/secp256k1Converter.svg?style=flat)](https://travis-ci.org/Archie/secp256k1Converter)
-[![Version](https://img.shields.io/cocoapods/v/secp256k1Converter.svg?style=flat)](https://cocoapods.org/pods/secp256k1Converter)
-[![License](https://img.shields.io/cocoapods/l/secp256k1Converter.svg?style=flat)](https://cocoapods.org/pods/secp256k1Converter)
-[![Platform](https://img.shields.io/cocoapods/p/secp256k1Converter.svg?style=flat)](https://cocoapods.org/pods/secp256k1Converter)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
