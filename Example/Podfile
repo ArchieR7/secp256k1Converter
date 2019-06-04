@@ -1,0 +1,6 @@
+use_frameworks!
+target 'secp256k1Converter_Tests' do
+  pod 'secp256k1Converter', :path => '../'
+  
+  
+end
